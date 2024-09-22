@@ -50,7 +50,7 @@ body{
 }
 
 .main {
-    min-height: 100vh;
+    min-height: 107vh;
     background: url('tela1.png') no-repeat;
     background-size: cover;
     background-position: center 80px; 
@@ -101,7 +101,7 @@ body{
 .Inicio-content .start-btn {
     position: absolute;
     top: 75%;
-    left: 11%;
+    left: 7%;
     width: 290px;
     height: 80px;
     background: #2aa051;
@@ -126,7 +126,7 @@ body{
 .Inicio-content .saiba-btn {
     position: absolute;
     top: 75%;
-    left: 32%;
+    left: 30%;
     width: 290px;
     height: 80px;
     background: #2aa051;
