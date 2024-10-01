@@ -18,10 +18,10 @@ body{
     top: 0;
     left: 0; 
     width: 100%;
-    padding: 20px 0; /* Remover padding lateral */
+    padding: 20px 0; 
     background: #2aa051;
     display: flex;
-    justify-content: center; /* Centraliza todos os itens */
+    justify-content: center; 
     align-items: center;
     z-index: 100;
 }
@@ -101,7 +101,7 @@ body{
 .Inicio-content .start-btn {
     position: absolute;
     top: 75%;
-    left: 7%;
+    left: 30%;
     width: 290px;
     height: 80px;
     background: #2aa051;
@@ -126,7 +126,7 @@ body{
 .Inicio-content .saiba-btn {
     position: absolute;
     top: 75%;
-    left: 30%;
+    left: 7%;
     width: 290px;
     height: 80px;
     background: #2aa051;
@@ -140,6 +140,7 @@ body{
     font-weight: 600;
     cursor: pointer;
     transition: .5s;
+
 }
 
 
@@ -477,3 +478,318 @@ body{
     background: #0a6116;
     color: #fff;
 }
+
+.esg-info-page {
+    overflow-y: auto; 
+    height: 80vh;    
+    padding: 10px;
+}
+
+body.esg-page {
+    background-color: #f5f5f5;  
+    color: transparent;                
+    font-size: 16px;           
+    line-height: 1.6;
+    padding: 20px;
+    overflow-y: scroll;        
+}
+
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #2aa051;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.main-content {
+    margin-top: 130px;
+    padding: 0px;
+}
+
+
+.esg-info-page {
+    overflow-y: auto; 
+    height: 90vh; 
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+.esg-info-page h1 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.esg-info-page h2 {
+    background-color: #fff;
+    color: #2aa051;
+    padding: 10px;
+    border: 2px solid #2aa051;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.esg-info-page h3 {
+    background-color: #fff;
+    color: #2aa051;
+    padding: 10px;
+    border: 2px solid #2aa051;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.esg-info-page h4 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #2aa051;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.esg-info-page p {
+    color: #2aa051;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.esg-info-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.esg-info-page ul li {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+
+
+.explain-info-page {
+    overflow-y: auto; 
+    height: 80vh;    
+    padding: 10px;
+}
+
+body.explain-page {
+    background-color: #f5f5f5;  
+    color: transparent;                
+    font-size: 16px;            
+    line-height: 1.6;
+    padding: 20px;
+    overflow-y: scroll;         
+}
+
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #2aa051;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.main-content {
+    margin-top: 130px;
+    padding: 0px;
+}
+
+
+.explain-info-page {
+    overflow-y: auto; 
+    height: 90vh; 
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+
+.explain-info-page n1 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n2 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n3 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n4 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n5 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n6 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n7 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n8 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n9 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n10 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.explain-info-page n1 {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+
+
+
+.explain-info-page p {
+    color: #2aa051;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+
+.explain-info-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.explain-info-page ul li {
+    background-color: #2aa051;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+
+
