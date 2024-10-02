@@ -35,8 +35,10 @@ esg-quiz/
 - **JavaScript**: Lógica do quiz e interação com os usuários.
 
 
-# Imagens do Site
-# Página Inicial
+
+# **Imagens do Site**
+
+## Página Inicial
 ![Capa](https://github.com/user-attachments/assets/13cb4022-7079-4f76-a7af-6b21cedaf847)
 
 ## Esg na Economia
