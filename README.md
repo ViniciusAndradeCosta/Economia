@@ -34,16 +34,4 @@ esg-quiz/
 - **CSS3**: Estilos e layout responsivo.
 - **JavaScript**: Lógica do quiz e interação com os usuários.
 
-## Como Executar o Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/ViniciusAndradeCosta/esg-quiz.git
-   ```
-
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd esg-quiz
-   ```
-
-3. Abra o arquivo `index.html` em um navegador web. Se estiver utilizando o Visual Studio Code, você pode executar o projeto com a extensão **Live Server** para facilitar o desenvolvimento.
