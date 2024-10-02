@@ -1,8 +1,4 @@
-Aqui está um modelo de README para o seu projeto no GitHub:
-
----
-
-# Projeto ESG - Ensino sobre Environmental, Social and Governance
+# ESG Quiz - Ensino sobre Environmental, Social and Governance (ESG)
 
 Este repositório contém o código fonte de um site interativo desenvolvido como ferramenta de ensino para o tema **Environmental, Social and Governance (ESG)** e suas implicações na economia. O projeto foi criado como parte de um trabalho acadêmico na disciplina de **Economia**.
 
@@ -12,10 +8,25 @@ O objetivo do projeto é proporcionar uma forma interativa de aprendizado sobre 
 
 ## Funcionalidades
 
-- **Conteúdo educativo completo**: O site traz textos informativos sobre os três pilares do ESG e suas relações com a economia.
-- **Quiz interativo**: Uma ferramenta de avaliação que permite aos usuários testar seus conhecimentos sobre ESG.
-- **Botão "Saiba Mais"**: Oferece links para recursos adicionais sobre o tema.
-- **Design Responsivo**: Layout adaptado para diferentes dispositivos (desktop e mobile).
+- **Conteúdo educativo completo**: Textos informativos sobre ESG em diferentes páginas.
+- **Quiz interativo**: Permite aos usuários testar seus conhecimentos sobre ESG.
+- **Botão "Saiba Mais"**: Links para recursos adicionais sobre o tema.
+- **Design Responsivo**: Adaptado para diferentes dispositivos (desktop e mobile).
+
+## Estrutura do Projeto
+
+```
+esg-quiz/
+│
+├── esg.html          # Página de introdução ao tema ESG
+├── explain.html      # Página explicativa adicional sobre ESG
+├── index.html        # Página principal com o quiz
+├── questions.js      # Perguntas do quiz
+├── script.js         # Lógica do quiz e interações
+├── styles.css        # Estilos do site
+├── Imagens/          # Diretório de imagens utilizadas no projeto
+└── README.md         # Documentação do projeto
+```
 
 ## Tecnologias Utilizadas
 
@@ -27,7 +38,7 @@ O objetivo do projeto é proporcionar uma forma interativa de aprendizado sobre 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/esg-quiz.git
+   git clone https://github.com/ViniciusAndradeCosta/esg-quiz.git
    ```
 
 2. Navegue até a pasta do projeto:
@@ -36,24 +47,3 @@ O objetivo do projeto é proporcionar uma forma interativa de aprendizado sobre 
    ```
 
 3. Abra o arquivo `index.html` em um navegador web. Se estiver utilizando o Visual Studio Code, você pode executar o projeto com a extensão **Live Server** para facilitar o desenvolvimento.
-
-## Estrutura do Projeto
-
-```
-esg-quiz/
-│
-├── index.html         # Página principal
-├── css/
-│   └── styles.css     # Estilos do site
-├── js/
-│   └── script.js      # Lógica do quiz
-└── README.md          # Documentação do projeto
-```
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
-
----
-
-Se precisar de mais alguma alteração ou detalhe, é só avisar!
