@@ -478,6 +478,10 @@ body{
     background: #0a6116;
     color: #fff;
 }
+.buttons button:nth-child(3):hover {
+    background: #0a6116;
+    color: #fff;
+}
 
 .esg-info-page {
     overflow-y: auto; 
