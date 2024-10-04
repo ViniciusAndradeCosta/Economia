@@ -19,7 +19,7 @@ O objetivo do projeto é proporcionar uma forma interativa de aprendizado sobre 
 esg-quiz/
 │
 ├── esg.html          # Página de introdução ao tema ESG
-├── explain.html      # Página explicativa adicional sobre ESG
+├── explain.html      # Página com explicação das questões do Quiz ESG
 ├── index.html        # Página principal com o quiz
 ├── questions.js      # Perguntas do quiz
 ├── script.js         # Lógica do quiz e interações
