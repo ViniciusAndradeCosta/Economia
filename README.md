@@ -1,58 +1,79 @@
-# ESG Quiz - Ensino sobre Environmental, Social and Governance (ESG)
+# 🌱 ESG Quiz – Plataforma Educacional Interativa sobre Environmental, Social and Governance
 
-Este repositório contém o código fonte de um site interativo desenvolvido como ferramenta de ensino para o tema **Environmental, Social and Governance (ESG)** e suas implicações na economia. O projeto foi criado como parte de um trabalho acadêmico na disciplina de **Economia**.
+Este repositório contém o código-fonte de uma plataforma web interativa desenvolvida como ferramenta didática para o ensino do conceito **ESG (Environmental, Social and Governance)** e suas implicações na economia contemporânea. 
 
-## Objetivo
+O projeto foi desenvolvido como parte de um trabalho acadêmico na disciplina de **Economia**, com o objetivo de facilitar o aprendizado de forma dinâmica e acessível.
 
-O objetivo do projeto é proporcionar uma forma interativa de aprendizado sobre ESG, explicando como os fatores ambientais, sociais e de governança impactam as decisões econômicas de empresas e investidores. O site inclui um **quiz** para testar o conhecimento dos usuários sobre o tema e incentivar o engajamento.
+---
 
-## Funcionalidades
+## 🎯 Objetivo
 
-- **Conteúdo educativo completo**: Textos informativos sobre ESG em diferentes páginas.
-- **Quiz interativo**: Permite aos usuários testar seus conhecimentos sobre ESG.
-- **Botão "Saiba Mais"**: Links para recursos adicionais sobre o tema.
-- **Design Responsivo**: Adaptado para diferentes dispositivos (desktop e mobile).
+O projeto tem como principal finalidade **educar os usuários sobre os pilares ESG** e como eles influenciam as decisões de empresas e investidores no cenário econômico. A plataforma conta com um **quiz interativo**, textos explicativos e links para aprofundamento, promovendo o engajamento e a reflexão crítica sobre o tema.
 
-## Estrutura do Projeto
+---
+
+## 🧩 Funcionalidades
+
+- 📚 **Conteúdo educativo estruturado**: páginas com explicações acessíveis e organizadas sobre ESG.
+- 🧠 **Quiz interativo**: questionário para testar e consolidar os conhecimentos adquiridos.
+- 🔗 **Botão "Saiba Mais"**: direcionamento para fontes complementares confiáveis.
+- 📱 **Design Responsivo**: interface adaptada para diferentes tamanhos de tela (mobile e desktop).
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```
+
 esg-quiz/
 │
-├── esg.html          # Página de introdução ao tema ESG
-├── explain.html      # Página com explicação das questões do Quiz ESG
-├── index.html        # Página principal com o quiz
-├── questions.js      # Perguntas do quiz
-├── script.js         # Lógica do quiz e interações
-├── styles.css        # Estilos do site
-├── Imagens/          # Diretório de imagens utilizadas no projeto
-└── README.md         # Documentação do projeto
+├── index.html         # Página principal (quiz)
+├── esg.html           # Introdução ao conceito ESG
+├── explain.html       # Explicações das perguntas do quiz
+├── questions.js       # Banco de perguntas do quiz
+├── script.js          # Lógica e controle das interações
+├── styles.css         # Estilização e responsividade
+├── Imagens/           # Diretório com imagens utilizadas
+└── README.md          # Documentação do projeto
+
 ```
 
-## Tecnologias Utilizadas
+---
 
-- **HTML5**: Estrutura do site.
-- **CSS3**: Estilos e layout responsivo.
-- **JavaScript**: Lógica do quiz e interação com os usuários.
+## 💻 Tecnologias Utilizadas
 
+- **HTML5** – Estrutura e marcação do conteúdo.
+- **CSS3** – Estilização e responsividade da interface.
+- **JavaScript** – Implementação da lógica do quiz e interatividade da aplicação.
 
+---
 
-# **Imagens do Site**
+## 🖼️ Imagens do Projeto
 
-## Página Inicial
+### Página Inicial
 ![Capa](https://github.com/user-attachments/assets/13cb4022-7079-4f76-a7af-6b21cedaf847)
 
-## Esg na Economia
+### ESG na Economia
 ![EsgNaEconomia](https://github.com/user-attachments/assets/88e4627b-7a4e-440e-b9b9-c6b95b6a8dd7)
 ![EsgNaEconomia1](https://github.com/user-attachments/assets/54ff7aa1-20a1-46ae-aaa3-00d90bf40739)
 ![EsgNaEconomia2](https://github.com/user-attachments/assets/3e8e9b48-434e-4837-bd6b-bb125f9993d0)
 ![EsgNaEconomia3](https://github.com/user-attachments/assets/bd706aba-c0b2-4401-ad42-e7c648bd5dc2)
 
-## Quiz
+### Quiz Interativo
 ![Quiz](https://github.com/user-attachments/assets/133bdff6-321e-40cd-a1e2-dcfaebc50668)
 ![Quiz1](https://github.com/user-attachments/assets/852bfef0-06e3-495d-9a96-dfd56a22ad74)
 ![Quiz2](https://github.com/user-attachments/assets/06cf5fa5-f2f2-4f4f-8415-ccdb9f16aa6a)
 ![Quiz3](https://github.com/user-attachments/assets/1cc64944-03d9-4acf-a7ec-6eaf5749bd8e)
 
-## Explicação das questões
+### Explicações das Questões
 ![Explicação](https://github.com/user-attachments/assets/b9193d58-b43b-4950-91af-2bc45a00a358)
 ![Explicação1](https://github.com/user-attachments/assets/446cd1fd-53a2-4ea2-9001-cfb99640e975)
+
+---
+
+## 📌 Considerações Finais
+
+Este projeto demonstra como o uso de tecnologias web pode contribuir para a disseminação de temas relevantes e contemporâneos como ESG. A proposta de gamificação através do quiz torna o aprendizado mais envolvente, especialmente no ambiente acadêmico da disciplina de **Economia**.
+
+---
+
